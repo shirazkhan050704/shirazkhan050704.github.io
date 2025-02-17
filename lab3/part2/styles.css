@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ddd;
+    margin: 0;
+}
+
+/* Cool Box Styling */
+.cool-box {
+    width: 200px; 
+    height: 155px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1.125rem; 
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white; 
+    text-shadow: 1px 1px 2px black; 
+    border-radius: 10px; 
+    border: 1px solid #ff0000c9; 
+    background: linear-gradient(
+        to bottom right, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.2) 30%, 
+        rgba(0, 0, 0, 0.2) 100%
+    ), 
+    linear-gradient(to bottom, #ff0000, #c00202); /* Base color gradient + semi-transparent black gradient */
+    
+    /* Multiple box shadows for 3D effect */
+    box-shadow: 
+        5px 5px 15px rgba(0, 0, 0, 0.5), /* Standard shadow */
+        inset 2px 2px 5px rgba(255, 255, 255, 0.548), /* Top-left inner shadow (light) */
+        inset -2px -2px 5px rgba(0, 0, 0, 0.3); /* Bottom-right inner shadow (dark) */
+}
