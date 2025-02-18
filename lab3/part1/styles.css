@@ -23,5 +23,21 @@ body {
     padding: 10px;  
     background-color: #eeeeee;
 }
+a[href^="mailto:"] {
+  color: green;
+  text-decoration: none;
+}
+
+
+a[href^="mailto:"]:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+
+a[href^="http"] {
+  color: rgb(255, 94, 0);
+}
+
 
 
