@@ -87,8 +87,6 @@
 }
 
 .bottons a {
-
-  
     display: block;
     padding: 13px 30px; 
     text-decoration: none;
@@ -98,6 +96,4 @@
     width: 140px; 
     margin: 0 auto; 
     text-align: center;
-
-
 }
