@@ -19,16 +19,16 @@ body {
     color: white; 
     text-shadow: 1px 1px 2px black; 
     border-radius: 10px; 
-    border: 1px solid #ff0000c9; 
-    background: linear-gradient(
-        to bottom right, 
-        rgba(0, 0, 0, 0) 0%, 
-        rgba(0, 0, 0, 0.2) 30%, 
-        rgba(0, 0, 0, 0.2) 100%
-    ), 
-    linear-gradient(to bottom, #ff0000, #c00202); 
-    
-    
+    border: 1px solid rgba(255, 0, 0, 0.8); 
+    background: 
+        linear-gradient(
+            to top left, 
+            rgba(0, 0, 0, 0) 0%, 
+            rgba(0, 0, 0, 0.2) 30%, 
+            rgba(0, 0, 0, 0.2) 100%
+        ), 
+        linear-gradient(to bottom, #ff0000, #c00202);
+
     box-shadow: 
         5px 5px 15px rgba(0, 0, 0, 0.5), 
         inset 2px 2px 5px rgba(255, 255, 255, 0.548), 

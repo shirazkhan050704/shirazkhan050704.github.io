@@ -54,54 +54,54 @@ body {
 
   .feature {
     float: left;
-    margin-right: 20px; /* Space between image and text */
-    width: 200px; /* Adjust size */
+    margin-right: 20px; 
+    width: 200px;
     height: auto;
   }
 
   .photography-section {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the title */
+    align-items: center; 
 }
 
 .photo-grid {
     display: flex;
-    flex-direction: column; /* Stacks images vertically */
-    gap: 10px; /* Adds space between images */
+    flex-direction: column; 
+    gap: 10px; 
 }
 
 .photo-grid img {
-    width: 100px; /* Adjust size */
+    width: 100px;
     height: auto;
 }
 
 .content-container {
-    max-width: 720px; /* Limits the width of the entire content */
-    margin: 10 auto; /* Centers the content on the page */
+    max-width: 720px; 
+    margin: 10 auto; 
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 2fr 1fr; /* Blog takes 2/3, Photography takes 1/3 */
-    gap: 20px; /* Space between the sections */
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px; 
     margin: 0 auto;
     padding: 0 20px;
     max-width: 990px;
-    align-items: start; /* Aligns sections at the top */
+    align-items: start; 
 }
 
 .photos {
     display: grid;
-    grid-template-columns: repeat(2, 110px); /* Two columns */
-    gap: 1px; /* 1px gap between images */
+    grid-template-columns: repeat(2, 110px); 
+    gap: 1px; 
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .photos img {
-    width: 100%; /* Make images fill the grid cell */
+    width: 100%; 
     height: auto;
     display: block;
 }
