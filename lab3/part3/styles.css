@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 10px;
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 800px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  h1, h2 {
+    letter-spacing: 1px;
+}
+  
+  /* Layout */
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  h1 {
+    font-size: 2em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+  .indented {
+    text-indent: 20px;
+  }
+  
+  a {
+    color: brown;
+    text-decoration: underline;
+    text-decoration-color: brown;
+  }
+  
+  a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 12px; 
+    height: 12px;
+    background-image: url(images/arrow.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5px; 
+  }
+
+  .bottons {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.bottons li {
+    margin: 10px 0; 
+}
+
+.bottons a {
+    display: block;
+    padding: 13px 30px; 
+    text-decoration: none;
+    color: brown;
+    border: 1px solid brown;
+    font-size: 14px; 
+    width: 140px; 
+    margin: 0 auto; 
+    text-align: center;
+}

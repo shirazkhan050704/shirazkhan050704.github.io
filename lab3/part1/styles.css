@@ -1,5 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 65vh;
+    align-items: center;
+    margin: auto;
+    line-height: 1.5;
   }
   
   h1 {

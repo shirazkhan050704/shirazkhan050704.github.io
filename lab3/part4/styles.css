@@ -1,0 +1,110 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+    font-weight: bold;
+
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+    float: left;
+    margin-right: 20px; /* Space between image and text */
+    width: 200px; /* Adjust size */
+    height: auto;
+  }
+
+  .photography-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the title */
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: column; /* Stacks images vertically */
+    gap: 10px; /* Adds space between images */
+}
+
+.photo-grid img {
+    width: 100px; /* Adjust size */
+    height: auto;
+}
+
+.content-container {
+    max-width: 720px; /* Limits the width of the entire content */
+    margin: 10 auto; /* Centers the content on the page */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Blog takes 2/3, Photography takes 1/3 */
+    gap: 20px; /* Space between the sections */
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 990px;
+    align-items: start; /* Aligns sections at the top */
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(2, 110px); /* Two columns */
+    gap: 1px; /* 1px gap between images */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.photos img {
+    width: 100%; /* Make images fill the grid cell */
+    height: auto;
+    display: block;
+}
+
+  
+  
